@@ -1,8 +1,8 @@
 import { response } from "express";
 import Resume from "../models/Resume.js";
-import ai from "../configs/ai.js"; 
+import ai from "../configs/ai.js";
 // controller for enhancing a resumes 's professional summary
-// POST: /api/ai/enhance-pro-sum
+// POST: /api/ai/enhance-pro-sum  
 
 export const enhanceProfessionalSummary = async (req, res) => {
     try {
